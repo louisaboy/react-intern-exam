@@ -1,0 +1,85 @@
+.invoices-list-container {
+    width: fit-content;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px;
+    border-radius: 10px;
+    vertical-align: middle;
+    padding: 60px;
+}
+
+.titleText {
+    margin-bottom: 30px;
+}
+
+.button-styles {
+    display: flex;
+    flex-direction: row;
+    justify-content: "space-between";
+}
+
+.modal-content {
+    margin-bottom: 5rem;
+    text-align: left;
+    font-weight: bold;
+    /* flex-direction: column; */
+    /* padding: auto, auto; */
+    margin: 0, auto;
+}
+/* .updateBtn {
+    background-color: green;
+}
+
+.deleteBtn {
+    background-color: red;
+} */
+/* .styled-table {
+    text-align: center;
+    border: 5px solid;
+    
+} */
+
+
+
+.styled-table {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+    /* margin: 25px 0; */
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}

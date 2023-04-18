@@ -1,0 +1,51 @@
+.invoice-container {
+    width: 30%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px;
+    border-radius: 10px;
+    vertical-align: middle;
+    padding: 60px;
+}
+
+.title {
+    margin-bottom: 100px;
+}
+
+.form-container {
+    margin-bottom: 5rem;
+    width: 300px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: left;
+    font-weight: bold;
+    /* flex-direction: column; */
+    /* padding: auto, auto; */
+    margin: 0, auto;
+}
+
+.errorMessage {
+    margin-top: 10px;
+    color: red;
+}
+
+.createBtn {
+    margin-bottom: 1rem;
+    background-color: #009879;
+    border-color:#009879;
+}
+
+.createBtn:hover {
+    background-color: white;
+    color:#009879;
+    border-color:#009879;
+}
